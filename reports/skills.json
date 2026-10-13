@@ -1,0 +1,152 @@
+{
+  "lab": "minilab-marketing-skills-pack",
+  "generated_at": "2026-10-13T14:56:40.984Z",
+  "elapsed_ms": 7868,
+  "pass": true,
+  "upstream": {
+    "repo": "https://github.com/coreyhaines31/marketingskills.git",
+    "pinned_commit": "3b84db2e3dc5a91563cc0c5ab359c5b3f7d3c9cd",
+    "pinned_commit_short": "3b84db2e",
+    "checked_out": true,
+    "checkout_head": "3b84db2e3dc5a91563cc0c5ab359c5b3f7d3c9cd",
+    "checkout_matches_pin": true,
+    "skill_count": 50,
+    "frontmatter_pass": true,
+    "frontmatter_failures": [],
+    "skills": [
+      "ab-testing",
+      "ad-creative",
+      "ads",
+      "ai-seo",
+      "analytics",
+      "aso",
+      "attribution",
+      "churn-prevention",
+      "co-marketing",
+      "cold-email",
+      "community-marketing",
+      "competitor-profiling",
+      "competitors",
+      "content-strategy",
+      "copy-editing",
+      "copywriting",
+      "cro",
+      "customer-research",
+      "directory-submissions",
+      "emails",
+      "events",
+      "free-tools",
+      "image",
+      "influencer-marketing",
+      "launch",
+      "lead-magnets",
+      "marketing-council",
+      "marketing-ideas",
+      "marketing-loops",
+      "marketing-plan",
+      "marketing-psychology",
+      "offers",
+      "onboarding",
+      "paywalls",
+      "popups",
+      "pricing",
+      "product-marketing",
+      "programmatic-seo",
+      "prospecting",
+      "public-relations",
+      "referrals",
+      "revops",
+      "sales-enablement",
+      "schema",
+      "seo-audit",
+      "signup",
+      "site-architecture",
+      "sms",
+      "social",
+      "video"
+    ]
+  },
+  "local": {
+    "skills_dir": ".claude/skills",
+    "skill_count": 4,
+    "skills": [
+      "ai-seo",
+      "copywriting",
+      "cro",
+      "launch"
+    ],
+    "installed_names": [
+      "cro",
+      "copywriting",
+      "ai-seo",
+      "launch"
+    ],
+    "skills_cli": "skills@1.7.2",
+    "frontmatter": [
+      {
+        "folder": "ai-seo",
+        "ok": true,
+        "errors": [],
+        "name": "ai-seo",
+        "description_len": 1004
+      },
+      {
+        "folder": "copywriting",
+        "ok": true,
+        "errors": [],
+        "name": "copywriting",
+        "description_len": 946
+      },
+      {
+        "folder": "cro",
+        "ok": true,
+        "errors": [],
+        "name": "cro",
+        "description_len": 654
+      },
+      {
+        "folder": "launch",
+        "ok": true,
+        "errors": [],
+        "name": "launch",
+        "description_len": 652
+      }
+    ]
+  },
+  "steps": [
+    {
+      "name": "install",
+      "pass": true,
+      "elapsed_ms": 1,
+      "detail": "verified existing install; 4 skills present, skills-lock.json matches fixture (skills@1.7.2)"
+    },
+    {
+      "name": "frontmatter",
+      "pass": true,
+      "elapsed_ms": 0,
+      "detail": "4/4 local SKILL.md frontmatter ok (name = folder, description ≤ 1024)"
+    },
+    {
+      "name": "validators",
+      "pass": true,
+      "elapsed_ms": 7512,
+      "detail": "validate-skills.sh + tests/run-regression.sh PASS @ 3b84db2e"
+    },
+    {
+      "name": "smoke",
+      "pass": true,
+      "elapsed_ms": 268,
+      "detail": "smoke:node ok (v24.14.1)"
+    }
+  ],
+  "headline": {
+    "upstream_skill_count": 50,
+    "local_skill_count": 4,
+    "validators_pass": true,
+    "frontmatter_pass": true,
+    "install_pass": true,
+    "smoke_pass": true,
+    "pinned_commit_short": "3b84db2e",
+    "elapsed_ms": 7868
+  }
+}

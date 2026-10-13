@@ -14,7 +14,8 @@
     "audit": "bun audit",
     "smoke:node": "bash scripts/node-smoke.sh",
     "test:upstream": "bash scripts/upstream-validators.sh",
-    "install:skills": "bash scripts/install-marketing-skills.sh"
+    "install:skills": "bash scripts/install-marketing-skills.sh",
+    "report": "bun run scripts/report.ts"
   },
   "devDependencies": {
     "@types/bun": "latest",
