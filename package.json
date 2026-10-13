@@ -1,0 +1,23 @@
+{
+  "name": "@skilleddragon/minilab-marketing-skills-pack",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "SkilledDragon minilab: curated marketingskills install, upstream validators, frontmatter checks",
+  "engines": {
+    "node": ">=24.0.0",
+    "bun": ">=1.2.0"
+  },
+  "scripts": {
+    "test": "bun test",
+    "check:skills": "bun run scripts/check-skills-frontmatter.ts",
+    "audit": "bun audit",
+    "smoke:node": "bash scripts/node-smoke.sh",
+    "test:upstream": "bash scripts/upstream-validators.sh",
+    "install:skills": "bash scripts/install-marketing-skills.sh"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.8.3"
+  }
+}
